@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l"
+    tools:context=".NaoReprovarResultadoRuim">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Oia estuda visse, se não tu reprova! \n \n Na final você precisa tirar no mínimo:"
+        android:textSize="18sp"
+        android:translationY="-200dp" />"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        android:translationY="-250px" />
+
+    <TextView
+        android:id="@+id/ApResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#ffff"
+        android:textSize="36sp"
+        android:translationY="-65dp" />
+
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="62dp"
+        android:layout_height="61dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/icon"
+        android:translationX="100px"
+        android:translationY="300px" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="61dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/iconback"
+        android:translationX="-100px"
+        android:translationY="300px" />
+
+</RelativeLayout>
